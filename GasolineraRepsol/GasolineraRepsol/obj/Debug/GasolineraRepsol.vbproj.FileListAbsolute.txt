@@ -1,0 +1,12 @@
+C:\Users\Yo\AppData\Local\Temporary Projects\GasolineraRepsol\bin\Debug\GasolineraRepsol.exe.config
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\bin\Debug\GasolineraRepsol.exe.config
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.formEmpleados.resources
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.formLNoloseRickPareceLogin.resources
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.Resources.resources
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.vbproj.GenerateResource.Cache
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\bin\Debug\GasolineraRepsol.exe
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\bin\Debug\GasolineraRepsol.pdb
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\bin\Debug\GasolineraRepsol.xml
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.exe
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.xml
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.pdb
