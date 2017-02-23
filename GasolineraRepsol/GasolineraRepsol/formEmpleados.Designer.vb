@@ -23,71 +23,87 @@ Partial Class formEmpleados
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.btnInsertar = New System.Windows.Forms.Button()
+        Me.btnEliminar = New System.Windows.Forms.Button()
+        Me.btnModificar = New System.Windows.Forms.Button()
         Me.lblNombreEmpleado = New System.Windows.Forms.Label()
         Me.lblApellidosEmpleado = New System.Windows.Forms.Label()
         Me.txtNombreEmpleado = New System.Windows.Forms.TextBox()
-        Me.txtApellidos = New System.Windows.Forms.TextBox()
+        Me.txtApellidosEmpleado = New System.Windows.Forms.TextBox()
         Me.txtNumeroEmpleado = New System.Windows.Forms.TextBox()
-        Me.lblNumeroEmpleado = New System.Windows.Forms.Label()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.lblCodigoEmpleado = New System.Windows.Forms.Label()
+        Me.txtDNI = New System.Windows.Forms.TextBox()
         Me.lblDNI = New System.Windows.Forms.Label()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.txtTelefonoEmpleado = New System.Windows.Forms.TextBox()
         Me.lblTfno = New System.Windows.Forms.Label()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.lblMail = New System.Windows.Forms.Label()
+        Me.txtMailEmpleado = New System.Windows.Forms.TextBox()
+        Me.lblMailEmpleado = New System.Windows.Forms.Label()
         Me.panelDireccion = New System.Windows.Forms.GroupBox()
+        Me.lblProvincia = New System.Windows.Forms.Label()
+        Me.lblLocalidad = New System.Windows.Forms.Label()
+        Me.txtPiso = New System.Windows.Forms.TextBox()
+        Me.lblPiso = New System.Windows.Forms.Label()
+        Me.txtProvincia = New System.Windows.Forms.TextBox()
+        Me.txtLocalidad = New System.Windows.Forms.TextBox()
         Me.txtPuerta = New System.Windows.Forms.TextBox()
         Me.lblPuerta = New System.Windows.Forms.Label()
-        Me.TextBox5 = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.txtCodigoPostal = New System.Windows.Forms.TextBox()
+        Me.lblCodigoPostal = New System.Windows.Forms.Label()
         Me.comboTipoVia = New System.Windows.Forms.ComboBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
-        Me.lblPiso = New System.Windows.Forms.Label()
+        Me.txtPortal = New System.Windows.Forms.TextBox()
+        Me.lblPortal = New System.Windows.Forms.Label()
         Me.txtCalle = New System.Windows.Forms.TextBox()
-        Me.pictureLogo = New System.Windows.Forms.PictureBox()
         Me.ToolTip1 = New System.Windows.Forms.ToolTip(Me.components)
         Me.timerMostrarPanel = New System.Windows.Forms.Timer(Me.components)
         Me.timerEsconderPanel = New System.Windows.Forms.Timer(Me.components)
-        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.panelDatosEmpleado = New System.Windows.Forms.Panel()
+        Me.calendario = New System.Windows.Forms.MonthCalendar()
+        Me.btnCalendario = New System.Windows.Forms.Button()
+        Me.txtFecha = New System.Windows.Forms.TextBox()
+        Me.lbl = New System.Windows.Forms.Label()
+        Me.lblDireccionDesplegable = New System.Windows.Forms.Label()
+        Me.pictureDireccion = New System.Windows.Forms.PictureBox()
+        Me.btnBuscar = New System.Windows.Forms.Button()
+        Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.txtRol = New System.Windows.Forms.TextBox()
+        Me.lblRol = New System.Windows.Forms.Label()
         Me.panelDireccion.SuspendLayout()
-        CType(Me.pictureLogo, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
+        Me.panelDatosEmpleado.SuspendLayout()
+        CType(Me.pictureDireccion, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnInsertar
         '
-        Me.Button1.Location = New System.Drawing.Point(0, 0)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(97, 29)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnInsertar.Location = New System.Drawing.Point(657, 50)
+        Me.btnInsertar.Name = "btnInsertar"
+        Me.btnInsertar.Size = New System.Drawing.Size(97, 29)
+        Me.btnInsertar.TabIndex = 1
+        Me.btnInsertar.Text = "Insertar"
+        Me.btnInsertar.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnEliminar
         '
-        Me.Button2.Location = New System.Drawing.Point(103, 0)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(97, 29)
-        Me.Button2.TabIndex = 2
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnEliminar.Location = New System.Drawing.Point(657, 106)
+        Me.btnEliminar.Name = "btnEliminar"
+        Me.btnEliminar.Size = New System.Drawing.Size(97, 29)
+        Me.btnEliminar.TabIndex = 2
+        Me.btnEliminar.Text = "Eliminar"
+        Me.btnEliminar.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnModificar
         '
-        Me.Button3.Location = New System.Drawing.Point(206, 0)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(97, 29)
-        Me.Button3.TabIndex = 3
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnModificar.Location = New System.Drawing.Point(657, 163)
+        Me.btnModificar.Name = "btnModificar"
+        Me.btnModificar.Size = New System.Drawing.Size(97, 29)
+        Me.btnModificar.TabIndex = 3
+        Me.btnModificar.Text = "Modificar"
+        Me.btnModificar.UseVisualStyleBackColor = True
         '
         'lblNombreEmpleado
         '
         Me.lblNombreEmpleado.AutoSize = True
-        Me.lblNombreEmpleado.Location = New System.Drawing.Point(19, 59)
+        Me.lblNombreEmpleado.Location = New System.Drawing.Point(12, 49)
         Me.lblNombreEmpleado.Name = "lblNombreEmpleado"
         Me.lblNombreEmpleado.Size = New System.Drawing.Size(108, 13)
         Me.lblNombreEmpleado.TabIndex = 4
@@ -96,7 +112,7 @@ Partial Class formEmpleados
         'lblApellidosEmpleado
         '
         Me.lblApellidosEmpleado.AutoSize = True
-        Me.lblApellidosEmpleado.Location = New System.Drawing.Point(19, 90)
+        Me.lblApellidosEmpleado.Location = New System.Drawing.Point(5, 77)
         Me.lblApellidosEmpleado.Name = "lblApellidosEmpleado"
         Me.lblApellidosEmpleado.Size = New System.Drawing.Size(115, 13)
         Me.lblApellidosEmpleado.TabIndex = 5
@@ -104,102 +120,168 @@ Partial Class formEmpleados
         '
         'txtNombreEmpleado
         '
-        Me.txtNombreEmpleado.Location = New System.Drawing.Point(153, 56)
+        Me.txtNombreEmpleado.Location = New System.Drawing.Point(145, 46)
+        Me.txtNombreEmpleado.MaxLength = 30
         Me.txtNombreEmpleado.Name = "txtNombreEmpleado"
-        Me.txtNombreEmpleado.Size = New System.Drawing.Size(100, 20)
+        Me.txtNombreEmpleado.Size = New System.Drawing.Size(200, 20)
         Me.txtNombreEmpleado.TabIndex = 6
         '
-        'txtApellidos
+        'txtApellidosEmpleado
         '
-        Me.txtApellidos.Location = New System.Drawing.Point(153, 90)
-        Me.txtApellidos.Name = "txtApellidos"
-        Me.txtApellidos.Size = New System.Drawing.Size(100, 20)
-        Me.txtApellidos.TabIndex = 7
+        Me.txtApellidosEmpleado.Location = New System.Drawing.Point(145, 74)
+        Me.txtApellidosEmpleado.MaxLength = 42
+        Me.txtApellidosEmpleado.Name = "txtApellidosEmpleado"
+        Me.txtApellidosEmpleado.Size = New System.Drawing.Size(268, 20)
+        Me.txtApellidosEmpleado.TabIndex = 7
         '
         'txtNumeroEmpleado
         '
-        Me.txtNumeroEmpleado.Location = New System.Drawing.Point(153, 20)
+        Me.txtNumeroEmpleado.Location = New System.Drawing.Point(145, 20)
+        Me.txtNumeroEmpleado.MaxLength = 2
         Me.txtNumeroEmpleado.Name = "txtNumeroEmpleado"
-        Me.txtNumeroEmpleado.Size = New System.Drawing.Size(100, 20)
+        Me.txtNumeroEmpleado.Size = New System.Drawing.Size(36, 20)
         Me.txtNumeroEmpleado.TabIndex = 9
+        Me.txtNumeroEmpleado.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
-        'lblNumeroEmpleado
+        'lblCodigoEmpleado
         '
-        Me.lblNumeroEmpleado.AutoSize = True
-        Me.lblNumeroEmpleado.Location = New System.Drawing.Point(19, 23)
-        Me.lblNumeroEmpleado.Name = "lblNumeroEmpleado"
-        Me.lblNumeroEmpleado.Size = New System.Drawing.Size(108, 13)
-        Me.lblNumeroEmpleado.TabIndex = 8
-        Me.lblNumeroEmpleado.Text = "Nombre de empleado"
+        Me.lblCodigoEmpleado.AutoSize = True
+        Me.lblCodigoEmpleado.Location = New System.Drawing.Point(16, 23)
+        Me.lblCodigoEmpleado.Name = "lblCodigoEmpleado"
+        Me.lblCodigoEmpleado.Size = New System.Drawing.Size(104, 13)
+        Me.lblCodigoEmpleado.TabIndex = 8
+        Me.lblCodigoEmpleado.Text = "Código de empleado"
         '
-        'TextBox1
+        'txtDNI
         '
-        Me.TextBox1.Location = New System.Drawing.Point(153, 129)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 11
+        Me.txtDNI.Location = New System.Drawing.Point(145, 100)
+        Me.txtDNI.MaxLength = 14
+        Me.txtDNI.Name = "txtDNI"
+        Me.txtDNI.Size = New System.Drawing.Size(100, 20)
+        Me.txtDNI.TabIndex = 11
         '
         'lblDNI
         '
         Me.lblDNI.AutoSize = True
-        Me.lblDNI.Location = New System.Drawing.Point(19, 129)
+        Me.lblDNI.Location = New System.Drawing.Point(35, 103)
         Me.lblDNI.Name = "lblDNI"
-        Me.lblDNI.Size = New System.Drawing.Size(115, 13)
+        Me.lblDNI.Size = New System.Drawing.Size(92, 13)
         Me.lblDNI.TabIndex = 10
-        Me.lblDNI.Text = "Apellidos del empleado"
+        Me.lblDNI.Text = "DNI del empleado"
         '
-        'TextBox2
+        'txtTelefonoEmpleado
         '
-        Me.TextBox2.Location = New System.Drawing.Point(153, 167)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 13
+        Me.txtTelefonoEmpleado.Location = New System.Drawing.Point(145, 136)
+        Me.txtTelefonoEmpleado.MaxLength = 9
+        Me.txtTelefonoEmpleado.Name = "txtTelefonoEmpleado"
+        Me.txtTelefonoEmpleado.Size = New System.Drawing.Size(100, 20)
+        Me.txtTelefonoEmpleado.TabIndex = 13
         '
         'lblTfno
         '
         Me.lblTfno.AutoSize = True
-        Me.lblTfno.Location = New System.Drawing.Point(19, 167)
+        Me.lblTfno.Location = New System.Drawing.Point(12, 139)
         Me.lblTfno.Name = "lblTfno"
         Me.lblTfno.Size = New System.Drawing.Size(115, 13)
         Me.lblTfno.TabIndex = 12
-        Me.lblTfno.Text = "Apellidos del empleado"
+        Me.lblTfno.Text = "Teléfono del empleado"
         '
-        'TextBox3
+        'txtMailEmpleado
         '
-        Me.TextBox3.Location = New System.Drawing.Point(153, 209)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 15
+        Me.txtMailEmpleado.Location = New System.Drawing.Point(145, 172)
+        Me.txtMailEmpleado.MaxLength = 50
+        Me.txtMailEmpleado.Name = "txtMailEmpleado"
+        Me.txtMailEmpleado.Size = New System.Drawing.Size(268, 20)
+        Me.txtMailEmpleado.TabIndex = 15
         '
-        'lblMail
+        'lblMailEmpleado
         '
-        Me.lblMail.AutoSize = True
-        Me.lblMail.Location = New System.Drawing.Point(19, 209)
-        Me.lblMail.Name = "lblMail"
-        Me.lblMail.Size = New System.Drawing.Size(115, 13)
-        Me.lblMail.TabIndex = 14
-        Me.lblMail.Text = "Apellidos del empleado"
+        Me.lblMailEmpleado.AutoSize = True
+        Me.lblMailEmpleado.Location = New System.Drawing.Point(26, 175)
+        Me.lblMailEmpleado.Name = "lblMailEmpleado"
+        Me.lblMailEmpleado.Size = New System.Drawing.Size(101, 13)
+        Me.lblMailEmpleado.TabIndex = 14
+        Me.lblMailEmpleado.Text = "E-mail del empleado"
         '
         'panelDireccion
         '
+        Me.panelDireccion.Controls.Add(Me.lblProvincia)
+        Me.panelDireccion.Controls.Add(Me.lblLocalidad)
+        Me.panelDireccion.Controls.Add(Me.txtPiso)
+        Me.panelDireccion.Controls.Add(Me.lblPiso)
+        Me.panelDireccion.Controls.Add(Me.txtProvincia)
+        Me.panelDireccion.Controls.Add(Me.txtLocalidad)
         Me.panelDireccion.Controls.Add(Me.txtPuerta)
         Me.panelDireccion.Controls.Add(Me.lblPuerta)
-        Me.panelDireccion.Controls.Add(Me.TextBox5)
-        Me.panelDireccion.Controls.Add(Me.Label1)
+        Me.panelDireccion.Controls.Add(Me.txtCodigoPostal)
+        Me.panelDireccion.Controls.Add(Me.lblCodigoPostal)
         Me.panelDireccion.Controls.Add(Me.comboTipoVia)
-        Me.panelDireccion.Controls.Add(Me.TextBox4)
-        Me.panelDireccion.Controls.Add(Me.lblPiso)
+        Me.panelDireccion.Controls.Add(Me.txtPortal)
+        Me.panelDireccion.Controls.Add(Me.lblPortal)
         Me.panelDireccion.Controls.Add(Me.txtCalle)
-        Me.panelDireccion.Location = New System.Drawing.Point(23, 50)
+        Me.panelDireccion.Location = New System.Drawing.Point(150, 150)
         Me.panelDireccion.Name = "panelDireccion"
-        Me.panelDireccion.Size = New System.Drawing.Size(436, 224)
+        Me.panelDireccion.Size = New System.Drawing.Size(480, 224)
         Me.panelDireccion.TabIndex = 16
         Me.panelDireccion.TabStop = False
         Me.panelDireccion.Text = "Dirección"
         '
+        'lblProvincia
+        '
+        Me.lblProvincia.AutoSize = True
+        Me.lblProvincia.Location = New System.Drawing.Point(222, 138)
+        Me.lblProvincia.Name = "lblProvincia"
+        Me.lblProvincia.Size = New System.Drawing.Size(51, 13)
+        Me.lblProvincia.TabIndex = 30
+        Me.lblProvincia.Text = "Provincia"
+        '
+        'lblLocalidad
+        '
+        Me.lblLocalidad.AutoSize = True
+        Me.lblLocalidad.Location = New System.Drawing.Point(19, 138)
+        Me.lblLocalidad.Name = "lblLocalidad"
+        Me.lblLocalidad.Size = New System.Drawing.Size(53, 13)
+        Me.lblLocalidad.TabIndex = 29
+        Me.lblLocalidad.Text = "Localidad"
+        '
+        'txtPiso
+        '
+        Me.txtPiso.Location = New System.Drawing.Point(396, 49)
+        Me.txtPiso.MaxLength = 1
+        Me.txtPiso.Name = "txtPiso"
+        Me.txtPiso.Size = New System.Drawing.Size(34, 20)
+        Me.txtPiso.TabIndex = 28
+        Me.ToolTip1.SetToolTip(Me.txtPiso, "Aquí va el número de tu piso (sólo números).")
+        '
+        'lblPiso
+        '
+        Me.lblPiso.AutoSize = True
+        Me.lblPiso.Location = New System.Drawing.Point(356, 53)
+        Me.lblPiso.Name = "lblPiso"
+        Me.lblPiso.Size = New System.Drawing.Size(27, 13)
+        Me.lblPiso.TabIndex = 27
+        Me.lblPiso.Text = "Piso"
+        '
+        'txtProvincia
+        '
+        Me.txtProvincia.Location = New System.Drawing.Point(288, 135)
+        Me.txtProvincia.MaxLength = 30
+        Me.txtProvincia.Name = "txtProvincia"
+        Me.txtProvincia.Size = New System.Drawing.Size(100, 20)
+        Me.txtProvincia.TabIndex = 26
+        '
+        'txtLocalidad
+        '
+        Me.txtLocalidad.Location = New System.Drawing.Point(91, 135)
+        Me.txtLocalidad.MaxLength = 30
+        Me.txtLocalidad.Name = "txtLocalidad"
+        Me.txtLocalidad.Size = New System.Drawing.Size(100, 20)
+        Me.txtLocalidad.TabIndex = 25
+        '
         'txtPuerta
         '
-        Me.txtPuerta.Location = New System.Drawing.Point(387, 49)
+        Me.txtPuerta.Location = New System.Drawing.Point(70, 89)
+        Me.txtPuerta.MaxLength = 3
         Me.txtPuerta.Name = "txtPuerta"
         Me.txtPuerta.Size = New System.Drawing.Size(34, 20)
         Me.txtPuerta.TabIndex = 24
@@ -208,28 +290,29 @@ Partial Class formEmpleados
         'lblPuerta
         '
         Me.lblPuerta.AutoSize = True
-        Me.lblPuerta.Location = New System.Drawing.Point(336, 52)
+        Me.lblPuerta.Location = New System.Drawing.Point(19, 92)
         Me.lblPuerta.Name = "lblPuerta"
-        Me.lblPuerta.Size = New System.Drawing.Size(45, 13)
+        Me.lblPuerta.Size = New System.Drawing.Size(38, 13)
         Me.lblPuerta.TabIndex = 23
-        Me.lblPuerta.Text = "Puerta *"
+        Me.lblPuerta.Text = "Puerta"
         '
-        'TextBox5
+        'txtCodigoPostal
         '
-        Me.TextBox5.Location = New System.Drawing.Point(127, 93)
-        Me.TextBox5.Name = "TextBox5"
-        Me.TextBox5.Size = New System.Drawing.Size(72, 20)
-        Me.TextBox5.TabIndex = 22
-        Me.ToolTip1.SetToolTip(Me.TextBox5, "Código postal de la dirección.")
+        Me.txtCodigoPostal.Location = New System.Drawing.Point(219, 89)
+        Me.txtCodigoPostal.MaxLength = 5
+        Me.txtCodigoPostal.Name = "txtCodigoPostal"
+        Me.txtCodigoPostal.Size = New System.Drawing.Size(72, 20)
+        Me.txtCodigoPostal.TabIndex = 22
+        Me.ToolTip1.SetToolTip(Me.txtCodigoPostal, "Código postal de la dirección.")
         '
-        'Label1
+        'lblCodigoPostal
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(26, 96)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(78, 13)
-        Me.Label1.TabIndex = 21
-        Me.Label1.Text = "Código postal *"
+        Me.lblCodigoPostal.AutoSize = True
+        Me.lblCodigoPostal.Location = New System.Drawing.Point(125, 92)
+        Me.lblCodigoPostal.Name = "lblCodigoPostal"
+        Me.lblCodigoPostal.Size = New System.Drawing.Size(71, 13)
+        Me.lblCodigoPostal.TabIndex = 21
+        Me.lblCodigoPostal.Text = "Código postal"
         '
         'comboTipoVia
         '
@@ -241,40 +324,32 @@ Partial Class formEmpleados
         Me.comboTipoVia.Size = New System.Drawing.Size(90, 21)
         Me.comboTipoVia.TabIndex = 20
         '
-        'TextBox4
+        'txtPortal
         '
-        Me.TextBox4.Location = New System.Drawing.Point(288, 49)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(34, 20)
-        Me.TextBox4.TabIndex = 19
-        Me.ToolTip1.SetToolTip(Me.TextBox4, "Aquí va el número de tu piso (sólo números).")
+        Me.txtPortal.Location = New System.Drawing.Point(288, 49)
+        Me.txtPortal.MaxLength = 1
+        Me.txtPortal.Name = "txtPortal"
+        Me.txtPortal.Size = New System.Drawing.Size(34, 20)
+        Me.txtPortal.TabIndex = 19
+        Me.ToolTip1.SetToolTip(Me.txtPortal, "Aquí va el número de tu piso (sólo números).")
         '
-        'lblPiso
+        'lblPortal
         '
-        Me.lblPiso.AutoSize = True
-        Me.lblPiso.Location = New System.Drawing.Point(248, 53)
-        Me.lblPiso.Name = "lblPiso"
-        Me.lblPiso.Size = New System.Drawing.Size(34, 13)
-        Me.lblPiso.TabIndex = 18
-        Me.lblPiso.Text = "Piso *"
+        Me.lblPortal.AutoSize = True
+        Me.lblPortal.Location = New System.Drawing.Point(248, 53)
+        Me.lblPortal.Name = "lblPortal"
+        Me.lblPortal.Size = New System.Drawing.Size(34, 13)
+        Me.lblPortal.TabIndex = 18
+        Me.lblPortal.Text = "Portal"
         '
         'txtCalle
         '
         Me.txtCalle.Location = New System.Drawing.Point(127, 50)
+        Me.txtCalle.MaxLength = 40
         Me.txtCalle.Name = "txtCalle"
         Me.txtCalle.Size = New System.Drawing.Size(100, 20)
         Me.txtCalle.TabIndex = 17
         Me.ToolTip1.SetToolTip(Me.txtCalle, "Aquí va el nombre de la vía.")
-        '
-        'pictureLogo
-        '
-        Me.pictureLogo.Image = Global.GasolineraRepsol.My.Resources.Resources.Expand_Arrow_Filled
-        Me.pictureLogo.Location = New System.Drawing.Point(0, 255)
-        Me.pictureLogo.Name = "pictureLogo"
-        Me.pictureLogo.Size = New System.Drawing.Size(22, 22)
-        Me.pictureLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.pictureLogo.TabIndex = 17
-        Me.pictureLogo.TabStop = False
         '
         'timerMostrarPanel
         '
@@ -284,73 +359,190 @@ Partial Class formEmpleados
         '
         Me.timerEsconderPanel.Interval = 1
         '
-        'Panel1
+        'panelDatosEmpleado
         '
-        Me.Panel1.Controls.Add(Me.txtNumeroEmpleado)
-        Me.Panel1.Controls.Add(Me.pictureLogo)
-        Me.Panel1.Controls.Add(Me.lblNombreEmpleado)
-        Me.Panel1.Controls.Add(Me.lblApellidosEmpleado)
-        Me.Panel1.Controls.Add(Me.TextBox3)
-        Me.Panel1.Controls.Add(Me.txtNombreEmpleado)
-        Me.Panel1.Controls.Add(Me.lblMail)
-        Me.Panel1.Controls.Add(Me.txtApellidos)
-        Me.Panel1.Controls.Add(Me.TextBox2)
-        Me.Panel1.Controls.Add(Me.lblNumeroEmpleado)
-        Me.Panel1.Controls.Add(Me.lblTfno)
-        Me.Panel1.Controls.Add(Me.lblDNI)
-        Me.Panel1.Controls.Add(Me.TextBox1)
-        Me.Panel1.Location = New System.Drawing.Point(23, 50)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(436, 277)
-        Me.Panel1.TabIndex = 18
+        Me.panelDatosEmpleado.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink
+        Me.panelDatosEmpleado.Controls.Add(Me.txtRol)
+        Me.panelDatosEmpleado.Controls.Add(Me.lblRol)
+        Me.panelDatosEmpleado.Controls.Add(Me.calendario)
+        Me.panelDatosEmpleado.Controls.Add(Me.btnCalendario)
+        Me.panelDatosEmpleado.Controls.Add(Me.txtFecha)
+        Me.panelDatosEmpleado.Controls.Add(Me.lbl)
+        Me.panelDatosEmpleado.Controls.Add(Me.lblDireccionDesplegable)
+        Me.panelDatosEmpleado.Controls.Add(Me.txtNumeroEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.pictureDireccion)
+        Me.panelDatosEmpleado.Controls.Add(Me.lblNombreEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.lblApellidosEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.txtMailEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.txtNombreEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.lblMailEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.txtApellidosEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.txtTelefonoEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.lblCodigoEmpleado)
+        Me.panelDatosEmpleado.Controls.Add(Me.lblTfno)
+        Me.panelDatosEmpleado.Controls.Add(Me.lblDNI)
+        Me.panelDatosEmpleado.Controls.Add(Me.txtDNI)
+        Me.panelDatosEmpleado.Location = New System.Drawing.Point(150, 50)
+        Me.panelDatosEmpleado.Name = "panelDatosEmpleado"
+        Me.panelDatosEmpleado.Size = New System.Drawing.Size(484, 334)
+        Me.panelDatosEmpleado.TabIndex = 18
+        '
+        'calendario
+        '
+        Me.calendario.Location = New System.Drawing.Point(230, 256)
+        Me.calendario.MaxDate = New Date(2001, 2, 21, 0, 0, 0, 0)
+        Me.calendario.MinDate = New Date(1950, 1, 1, 0, 0, 0, 0)
+        Me.calendario.Name = "calendario"
+        Me.calendario.TabIndex = 21
+        Me.calendario.Visible = False
+        '
+        'btnCalendario
+        '
+        Me.btnCalendario.Image = Global.GasolineraRepsol.My.Resources.Resources.Calendar
+        Me.btnCalendario.Location = New System.Drawing.Point(230, 247)
+        Me.btnCalendario.Name = "btnCalendario"
+        Me.btnCalendario.Size = New System.Drawing.Size(39, 37)
+        Me.btnCalendario.TabIndex = 21
+        Me.btnCalendario.UseVisualStyleBackColor = True
+        '
+        'txtFecha
+        '
+        Me.txtFecha.BackColor = System.Drawing.Color.White
+        Me.txtFecha.Location = New System.Drawing.Point(145, 256)
+        Me.txtFecha.Name = "txtFecha"
+        Me.txtFecha.ReadOnly = True
+        Me.txtFecha.Size = New System.Drawing.Size(74, 20)
+        Me.txtFecha.TabIndex = 20
+        Me.txtFecha.Text = "16/10/1990"
+        '
+        'lbl
+        '
+        Me.lbl.AutoSize = True
+        Me.lbl.Location = New System.Drawing.Point(19, 256)
+        Me.lbl.Name = "lbl"
+        Me.lbl.Size = New System.Drawing.Size(93, 13)
+        Me.lbl.TabIndex = 19
+        Me.lbl.Text = "Fecha Nacimiento"
+        '
+        'lblDireccionDesplegable
+        '
+        Me.lblDireccionDesplegable.AutoSize = True
+        Me.lblDireccionDesplegable.Location = New System.Drawing.Point(68, 303)
+        Me.lblDireccionDesplegable.Name = "lblDireccionDesplegable"
+        Me.lblDireccionDesplegable.Size = New System.Drawing.Size(52, 13)
+        Me.lblDireccionDesplegable.TabIndex = 18
+        Me.lblDireccionDesplegable.Text = "Dirección"
+        Me.lblDireccionDesplegable.Visible = False
+        '
+        'pictureDireccion
+        '
+        Me.pictureDireccion.Image = Global.GasolineraRepsol.My.Resources.Resources.Expand_Arrow_Filled
+        Me.pictureDireccion.Location = New System.Drawing.Point(22, 303)
+        Me.pictureDireccion.Name = "pictureDireccion"
+        Me.pictureDireccion.Size = New System.Drawing.Size(22, 22)
+        Me.pictureDireccion.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.pictureDireccion.TabIndex = 17
+        Me.pictureDireccion.TabStop = False
+        '
+        'btnBuscar
+        '
+        Me.btnBuscar.Location = New System.Drawing.Point(657, 217)
+        Me.btnBuscar.Name = "btnBuscar"
+        Me.btnBuscar.Size = New System.Drawing.Size(97, 29)
+        Me.btnBuscar.TabIndex = 19
+        Me.btnBuscar.Text = "Buscar"
+        Me.btnBuscar.UseVisualStyleBackColor = True
+        '
+        'DataGridView1
+        '
+        Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Location = New System.Drawing.Point(779, 50)
+        Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.Size = New System.Drawing.Size(502, 183)
+        Me.DataGridView1.TabIndex = 20
+        '
+        'txtRol
+        '
+        Me.txtRol.Location = New System.Drawing.Point(145, 209)
+        Me.txtRol.MaxLength = 50
+        Me.txtRol.Name = "txtRol"
+        Me.txtRol.Size = New System.Drawing.Size(268, 20)
+        Me.txtRol.TabIndex = 23
+        '
+        'lblRol
+        '
+        Me.lblRol.AutoSize = True
+        Me.lblRol.Location = New System.Drawing.Point(104, 212)
+        Me.lblRol.Name = "lblRol"
+        Me.lblRol.Size = New System.Drawing.Size(23, 13)
+        Me.lblRol.TabIndex = 22
+        Me.lblRol.Text = "Rol"
         '
         'formEmpleados
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(791, 590)
-        Me.Controls.Add(Me.Panel1)
+        Me.ClientSize = New System.Drawing.Size(1354, 492)
+        Me.Controls.Add(Me.DataGridView1)
+        Me.Controls.Add(Me.btnBuscar)
+        Me.Controls.Add(Me.panelDatosEmpleado)
         Me.Controls.Add(Me.panelDireccion)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btnModificar)
+        Me.Controls.Add(Me.btnEliminar)
+        Me.Controls.Add(Me.btnInsertar)
         Me.Name = "formEmpleados"
         Me.Text = "formEmpleados"
         Me.panelDireccion.ResumeLayout(False)
         Me.panelDireccion.PerformLayout()
-        CType(Me.pictureLogo, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
+        Me.panelDatosEmpleado.ResumeLayout(False)
+        Me.panelDatosEmpleado.PerformLayout()
+        CType(Me.pictureDireccion, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents btnInsertar As System.Windows.Forms.Button
+    Friend WithEvents btnEliminar As System.Windows.Forms.Button
+    Friend WithEvents btnModificar As System.Windows.Forms.Button
     Friend WithEvents lblNombreEmpleado As System.Windows.Forms.Label
     Friend WithEvents lblApellidosEmpleado As System.Windows.Forms.Label
     Friend WithEvents txtNombreEmpleado As System.Windows.Forms.TextBox
-    Friend WithEvents txtApellidos As System.Windows.Forms.TextBox
+    Friend WithEvents txtApellidosEmpleado As System.Windows.Forms.TextBox
     Friend WithEvents txtNumeroEmpleado As System.Windows.Forms.TextBox
-    Friend WithEvents lblNumeroEmpleado As System.Windows.Forms.Label
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents lblCodigoEmpleado As System.Windows.Forms.Label
+    Friend WithEvents txtDNI As System.Windows.Forms.TextBox
     Friend WithEvents lblDNI As System.Windows.Forms.Label
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents txtTelefonoEmpleado As System.Windows.Forms.TextBox
     Friend WithEvents lblTfno As System.Windows.Forms.Label
-    Friend WithEvents TextBox3 As System.Windows.Forms.TextBox
-    Friend WithEvents lblMail As System.Windows.Forms.Label
+    Friend WithEvents txtMailEmpleado As System.Windows.Forms.TextBox
+    Friend WithEvents lblMailEmpleado As System.Windows.Forms.Label
     Friend WithEvents panelDireccion As System.Windows.Forms.GroupBox
-    Friend WithEvents pictureLogo As System.Windows.Forms.PictureBox
+    Friend WithEvents pictureDireccion As System.Windows.Forms.PictureBox
     Friend WithEvents comboTipoVia As System.Windows.Forms.ComboBox
-    Friend WithEvents TextBox4 As System.Windows.Forms.TextBox
-    Friend WithEvents lblPiso As System.Windows.Forms.Label
+    Friend WithEvents txtPortal As System.Windows.Forms.TextBox
+    Friend WithEvents lblPortal As System.Windows.Forms.Label
     Friend WithEvents txtCalle As System.Windows.Forms.TextBox
     Friend WithEvents txtPuerta As System.Windows.Forms.TextBox
     Friend WithEvents ToolTip1 As System.Windows.Forms.ToolTip
     Friend WithEvents lblPuerta As System.Windows.Forms.Label
-    Friend WithEvents TextBox5 As System.Windows.Forms.TextBox
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents txtCodigoPostal As System.Windows.Forms.TextBox
+    Friend WithEvents lblCodigoPostal As System.Windows.Forms.Label
     Friend WithEvents timerMostrarPanel As System.Windows.Forms.Timer
     Friend WithEvents timerEsconderPanel As System.Windows.Forms.Timer
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents panelDatosEmpleado As System.Windows.Forms.Panel
+    Friend WithEvents lblDireccionDesplegable As System.Windows.Forms.Label
+    Friend WithEvents txtFecha As System.Windows.Forms.TextBox
+    Friend WithEvents lbl As System.Windows.Forms.Label
+    Friend WithEvents calendario As System.Windows.Forms.MonthCalendar
+    Friend WithEvents btnCalendario As System.Windows.Forms.Button
+    Friend WithEvents btnBuscar As System.Windows.Forms.Button
+    Friend WithEvents txtPiso As System.Windows.Forms.TextBox
+    Friend WithEvents lblPiso As System.Windows.Forms.Label
+    Friend WithEvents txtProvincia As System.Windows.Forms.TextBox
+    Public WithEvents txtLocalidad As System.Windows.Forms.TextBox
+    Friend WithEvents lblProvincia As System.Windows.Forms.Label
+    Friend WithEvents lblLocalidad As System.Windows.Forms.Label
+    Friend WithEvents DataGridView1 As System.Windows.Forms.DataGridView
+    Friend WithEvents txtRol As System.Windows.Forms.TextBox
+    Friend WithEvents lblRol As System.Windows.Forms.Label
 End Class
