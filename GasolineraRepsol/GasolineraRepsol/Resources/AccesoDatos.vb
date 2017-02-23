@@ -310,4 +310,16 @@ Public Class AccesoDatos
         Return dataSet
     End Function
 
+    Public Function obtenerTodosRegistros()
+
+        Dim comando As OleDbCommand
+        conexion.Open()
+
+        Dim stentenciaBuscarTodos = "SELECT * from empleados"
+
+
+
+        Return dataSet
+    End Function
+
 End Class
