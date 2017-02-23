@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CEED7BFF-F8A4-4C64-8172-7DC45705D923}</ProjectGuid>
+    <ProjectGuid>{75B9816E-C886-4DDD-802A-5E9991D43BA7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>GasolineraRepsol.My.MyApplication</StartupObject>
     <RootNamespace>GasolineraRepsol</RootNamespace>
@@ -70,23 +70,25 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccesoDatos.vb" />
-    <Compile Include="AccesoFicheros.vb" />
-    <Compile Include="Factura.vb" />
-    <Compile Include="formEmpleados.Designer.vb">
-      <DependentUpon>formEmpleados.vb</DependentUpon>
-    </Compile>
-    <Compile Include="formEmpleados.vb">
+    <Compile Include="Formulario_Principal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formLNoloseRickPareceLogin.vb">
+    <Compile Include="Formulario_Principal.Designer.vb">
+      <DependentUpon>Formulario_Principal.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formLNoloseRickPareceLogin.Designer.vb">
-      <DependentUpon>formLNoloseRickPareceLogin.vb</DependentUpon>
+    <Compile Include="Formulario_Empleados.Designer.vb">
+      <DependentUpon>Formulario_Empleados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_Empleados.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LineaFactura.vb" />
+    <Compile Include="Formulario_Proveedores.Designer.vb">
+      <DependentUpon>Formulario_Proveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_Proveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -102,20 +104,31 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Producto.vb" />
+    <Compile Include="Formulario_Socios.Designer.vb">
+      <DependentUpon>Formulario_Socios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formulario_Socios.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="formEmpleados.resx">
-      <DependentUpon>formEmpleados.vb</DependentUpon>
+    <EmbeddedResource Include="Formulario_Principal.resx">
+      <DependentUpon>Formulario_Principal.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="formLNoloseRickPareceLogin.resx">
-      <DependentUpon>formLNoloseRickPareceLogin.vb</DependentUpon>
+    <EmbeddedResource Include="Formulario_Empleados.resx">
+      <DependentUpon>Formulario_Empleados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_Proveedores.resx">
+      <DependentUpon>Formulario_Proveedores.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formulario_Socios.resx">
+      <DependentUpon>Formulario_Socios.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -131,19 +144,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\logo_repsol_principal.jpg" />
+    <None Include="Resources\ImagenSocios.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Expand Arrow Filled.png" />
+    <None Include="Resources\ImagenEmpleados.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Calendar.png" />
+    <None Include="Resources\Proveedores.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ok.png" />
+    <None Include="Resources\Repostaje.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\cancel.png" />
+    <None Include="Resources\LogOut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondorepsol.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

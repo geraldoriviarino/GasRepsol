@@ -15,23 +15,31 @@ GasolineraRepsol
   Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
-</member><member name="P:GasolineraRepsol.My.Resources.Resources.Calendar">
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.fondo">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
-</member><member name="P:GasolineraRepsol.My.Resources.Resources.cancel">
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.fondorepsol">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
-</member><member name="P:GasolineraRepsol.My.Resources.Resources.Expand_Arrow_Filled">
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.ImagenEmpleados">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
-</member><member name="P:GasolineraRepsol.My.Resources.Resources.logo_repsol_principal">
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.ImagenSocios">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
-</member><member name="P:GasolineraRepsol.My.Resources.Resources.ok">
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.LogOut">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.Proveedores">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.Repostaje">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
