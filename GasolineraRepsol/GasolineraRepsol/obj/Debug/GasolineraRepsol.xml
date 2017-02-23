@@ -15,11 +15,23 @@ GasolineraRepsol
   Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.Calendar">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.cancel">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
 </member><member name="P:GasolineraRepsol.My.Resources.Resources.Expand_Arrow_Filled">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member><member name="P:GasolineraRepsol.My.Resources.Resources.logo_repsol_principal">
+	<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member><member name="P:GasolineraRepsol.My.Resources.Resources.ok">
 	<summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>

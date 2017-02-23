@@ -70,6 +70,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoDatos.vb" />
     <Compile Include="AccesoFicheros.vb" />
     <Compile Include="Factura.vb" />
     <Compile Include="formEmpleados.Designer.vb">
@@ -134,6 +135,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Expand Arrow Filled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

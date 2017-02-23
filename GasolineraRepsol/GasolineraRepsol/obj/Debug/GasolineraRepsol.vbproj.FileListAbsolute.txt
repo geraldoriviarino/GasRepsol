@@ -10,3 +10,4 @@ K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\bin\Debug\GasolineraR
 K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.exe
 K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.xml
 K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.pdb
+K:\DAM\DI\Trabajo Repsol\GasolineraRepsol\GasolineraRepsol\obj\Debug\GasolineraRepsol.vbprojResolveAssemblyReference.cache
